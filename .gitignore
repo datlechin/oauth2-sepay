@@ -1,0 +1,5 @@
+/vendor
+composer.lock
+coverage.xml
+.DS_Store
+.phpunit.*.cache
