@@ -11,7 +11,7 @@ This package provides SePay OAuth 2.0 support for the PHP League's [OAuth 2.0 Cl
 
 To install, use composer:
 
-```
+```bash
 composer require datlechin/oauth2-sepay
 ```
 
@@ -88,8 +88,8 @@ At the time of authoring this documentation, the following scopes are available.
 
 ## Testing
 
-``` bash
-$ ./vendor/bin/phpunit
+```bash
+./vendor/bin/phpunit
 ```
 
 ## Contributing
