@@ -13,7 +13,7 @@ class SePayIdentityProviderException extends IdentityProviderException
     {
         return static::fromResponse(
             $response,
-            $data['message'] ?? $response->getReasonPhrase()
+            isset($data['message']) ? $data['message'] : $response->getReasonPhrase()
         );
     }
 
@@ -21,7 +21,7 @@ class SePayIdentityProviderException extends IdentityProviderException
     {
         return static::fromResponse(
             $response,
-            $data['error'] ?? $response->getReasonPhrase()
+            isset($data['error']) ? $data['error'] : $response->getReasonPhrase()
         );
     }
 
