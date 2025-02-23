@@ -9,23 +9,23 @@ use Psr\Http\Message\ResponseInterface;
 
 class SePayIdentityProviderException extends IdentityProviderException
 {
-    public static function clientException(ResponseInterface $response, $data): static
+    public static function clientException(ResponseInterface $response, $data): self
     {
         return static::fromResponse(
             $response,
-            isset($data['message']) ? $data['message'] : $response->getReasonPhrase()
+            $data['message'] ?? $response->getReasonPhrase()
         );
     }
 
-    public static function oauthException(ResponseInterface $response, $data): static
+    public static function oauthException(ResponseInterface $response, $data): self
     {
         return static::fromResponse(
             $response,
-            isset($data['error']) ? $data['error'] : $response->getReasonPhrase()
+            $data['error'] ?? $response->getReasonPhrase()
         );
     }
 
-    protected static function fromResponse(ResponseInterface $response, $message = null): static
+    protected static function fromResponse(ResponseInterface $response, $message = null): self
     {
         return new static($message, $response->getStatusCode(), (string) $response->getBody());
     }
