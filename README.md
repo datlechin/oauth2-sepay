@@ -1,7 +1,6 @@
 # SePay Provider for OAuth 2.0 Client
 [![Latest Version](https://img.shields.io/github/release/datlechin/oauth2-sepay.svg?style=flat-square)](https://github.com/datlechin/oauth2-sepay/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/datlechin/oauth2-sepay/master.svg?style=flat-square)](https://travis-ci.org/datlechin/oauth2-sepay)
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/datlechin/oauth2-sepay.svg?style=flat-square)](https://scrutinizer-ci.com/g/datlechin/oauth2-sepay/code-structure)
 [![Quality Score](https://img.shields.io/scrutinizer/g/datlechin/oauth2-sepay.svg?style=flat-square)](https://scrutinizer-ci.com/g/datlechin/oauth2-sepay)
 [![Total Downloads](https://img.shields.io/packagist/dt/datlechin/oauth2-sepay.svg?style=flat-square)](https://packagist.org/packages/league/oauth2-github)
