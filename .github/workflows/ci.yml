@@ -45,7 +45,7 @@ jobs:
         coverage: ["none"]
         include:
           - description: Minimum version
-            php: "7.3"
+            php: "7.4"
             minimum_versions: true
           - description: Code coverage
             php: "8.2"
