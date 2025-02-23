@@ -48,7 +48,7 @@ jobs:
             php: '7.4'
             minimum_versions: true
           - description: Code coverage
-            php: '8.2'
+            php: '8.4'
             coverage: pcov
     steps:
       - name: Checkout
