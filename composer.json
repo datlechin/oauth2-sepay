@@ -36,5 +36,10 @@
         "psr-4": {
             "Datlechin\\OAuth2\\Client\\Test\\": "tests/src/"
         }
+    },
+    "scripts": {
+        "check": [
+            "phpcs --standard=PSR12 src test -sp"
+        ]
     }
 }
