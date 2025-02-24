@@ -22,7 +22,7 @@ Usage is the same as The League's OAuth client, using `\Datlechin\OAuth2\Client\
 ### Authorization Code Flow
 
 ```php
-$provider = new Datlechin\OAuth2\Client\Provider\SePay([
+$provider = new \Datlechin\OAuth2\Client\Provider\SePay([
     'clientId' => '{sepay-client-id}',
     'clientSecret' => '{sepay-client-secret}',
     'redirectUri' => 'https://example.com/callback-url',
