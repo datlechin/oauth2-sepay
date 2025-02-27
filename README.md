@@ -68,7 +68,7 @@ When creating your SePay authorization URL, you can specify the state and scopes
 ```php
 $options = [
     'state' => 'OPTIONAL_CUSTOM_CONFIGURED_STATE',
-    'scope' => ['profile','company', 'bank-account:read'] // array or string; at least 'profile' is required
+    'scope' => ['profile', 'company', 'bank-account:read'] // array or string; at least 'profile' is required
 ];
 
 $authorizationUrl = $provider->getAuthorizationUrl($options);
