@@ -3,7 +3,7 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/datlechin/oauth2-sepay.svg?style=flat-square)](https://scrutinizer-ci.com/g/datlechin/oauth2-sepay/code-structure)
 [![Quality Score](https://img.shields.io/scrutinizer/g/datlechin/oauth2-sepay.svg?style=flat-square)](https://scrutinizer-ci.com/g/datlechin/oauth2-sepay)
-[![Total Downloads](https://img.shields.io/packagist/dt/datlechin/oauth2-sepay.svg?style=flat-square)](https://packagist.org/packages/league/oauth2-github)
+[![Total Downloads](https://img.shields.io/packagist/dt/datlechin/oauth2-sepay.svg?style=flat-square)](https://packagist.org/packages/datlechin/oauth2-sepay)
 
 This package provides SePay OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
 
